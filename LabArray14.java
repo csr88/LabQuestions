@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class LabArray14{
     public static void main(String[] args) {
@@ -30,21 +31,27 @@ public class LabArray14{
             sumrow=0;
             for (int j=0;j<column;j++){
                 sumrow += mat[i][j];
+                total += mat[i][j];
                 System.out.print(mat[i][j] + "\t");
             }
             System.out.print(sumrow);
             System.out.println();
         }
 
-        for (int i=0;i<column+1;i++){
+        for (int i=0;i<column;i++){
             sumcolumn =0;
             for (int j=0;j<row;j++){
                 sumcolumn += mat[j][i];
             }
             System.out.print(sumcolumn + "\t");
         }
+        System.out.print(total);
+
 
 
 
     }
 }
+//            if (column>1) {
+//                System.out.print(total);
+//            }
