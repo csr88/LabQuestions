@@ -13,15 +13,18 @@ public class LabArray4 {
 
         System.out.println("Enter the number you want to search for:");
         int checknum = sc.nextInt();
-        int num = 0;
-        int i;
+        int index=0;
 
-        for (i=0; num!=checknum && i<count;i++){
-            num = arr[i];
+        for (int j=0;j<count;j++){
+            if (arr[j]==checknum){
+                index=j;
+            }
+
         }
 
-        if (num==checknum){
-            System.out.println("The array contains the number " + checknum +" which is located in " + i+1 + "th position.");
+
+        if (index!=0){
+            System.out.println("Number " + checknum +" is located in " + index+1 + "th position.");
         }
         else{
             System.out.println("The array doesn't contain the given number.");

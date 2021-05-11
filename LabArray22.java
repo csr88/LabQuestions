@@ -17,9 +17,9 @@ public class LabArray22 {
                 num1 = arr[i];
                 System.out.println("65 is in the array");
             }
-            else if(arr[i]==-1){
+            else if(arr[i]==77){
                 num2 = arr[i];
-                System.out.println("-1 is in the array");
+                System.out.println("77 is in the array");
             }
         }
 

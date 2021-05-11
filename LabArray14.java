@@ -52,6 +52,3 @@ public class LabArray14{
 
     }
 }
-//            if (column>1) {
-//                System.out.print(total);
-//            }

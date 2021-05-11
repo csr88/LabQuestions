@@ -13,10 +13,12 @@ public class LabArray11 {
         }
 
         int[] dublicate = new int[count];
-        System.out.println("Dublicate array: ");
-        for (int i=0;i<count;i++){
-            dublicate[i]=arr[i];
-            System.out.println(dublicate[i]);
+        System.out.println("Dublicate number: ");
+        for (int i=0;i<count;i++) {
+            for (int j = i + 1; j < count; j++) {
+                if (arr[i]==arr[j])
+                    System.out.println(arr[j]);
+            }
         }
 
 

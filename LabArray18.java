@@ -28,7 +28,7 @@ public class LabArray18 {
                 counting++;
             }
 
-            if (counting == count1+1) {
+            if (counting == count1) {
                 System.out.println("\nThe given arrays are equal");
             } else {
                 System.out.println("\nThe given arrays are not equal");

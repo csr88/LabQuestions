@@ -13,9 +13,9 @@ public class LabArray12 {
             arr1[i]= sc.nextInt();
         }
 
-        int[] arr2 = new int[count1];
+        int[] arr2 = new int[count2];
         System.out.println("Enter the elements of second array");
-        for (int i=0;i<count1;i++){
+        for (int i=0;i<count2;i++){
             arr2[i]= sc.nextInt();
         }
 
