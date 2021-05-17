@@ -17,7 +17,8 @@ public class Assignment2Q2 {
 
         System.out.println("Total marks obtained: " + total);
         double percentage = ((total/500)*100);
-
+        
+        //use float, it will automatically round up the value
         DecimalFormat value = new DecimalFormat("#.#");
         //Double.parseDouble sends the string as double
         percentage = Double.parseDouble(value.format(percentage));
