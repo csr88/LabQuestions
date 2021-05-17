@@ -1,0 +1,8 @@
+ID	Name		Purchase Amount			Total Payable
+1	ram					100.0			95.0
+2	shyam					500.0			475.0
+
+.
+.
+===================================================================
+Total Amount:								Rs.475.0

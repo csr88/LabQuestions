@@ -40,7 +40,6 @@ public class FileOutputEmployee {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner sc = new Scanner(System.in);
         PrintWriter outF = new PrintWriter("/home/shishir/IdeaProjects/Shishir/Javalab 10 qsns/src/emp.txt");
 
 
@@ -84,7 +83,6 @@ public class FileOutputEmployee {
 
 
         outF.close();
-        sc.close();
 
 
     }

@@ -1,0 +1,4 @@
+ID         customer name          price
+1                 shyam              2                 ram              3                 hari              665
+570
+475

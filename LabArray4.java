@@ -24,7 +24,7 @@ public class LabArray4 {
 
 
         if (index!=0){
-            System.out.println("Number " + checknum +" is located in " + index+1 + "th position.");
+            System.out.println("Number " + checknum +" is located in " + (index+1) + "th position.");
         }
         else{
             System.out.println("The array doesn't contain the given number.");

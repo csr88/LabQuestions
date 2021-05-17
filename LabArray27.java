@@ -13,19 +13,37 @@ public class LabArray27 {
         }
         System.out.println("Original Array: " + Arrays.toString(arr));
 
+//        int temp =0;
+//        for (int i=0;i<count;i++){
+//            if (arr[i]==1){
+//                for (int j=count-1;j>=0;j--){
+//                    if(arr[j]==0){
+//                        temp = arr[i];
+//                        arr[i]=arr[j];
+//                        arr[j] = temp;
+//                    }
+//            }
+//        }
+//    }
+
+//        System.out.println("Resultant array: " + Arrays.toString(arr) );
+
         int temp =0;
-        for (int i=0;i<count;i++){
-            if (arr[i]==1){
-                for (int j=count-1;j>=0;j--){
-                    if(arr[j]==0){
-                        temp = arr[i];
-                        arr[i]=arr[j];
-                        arr[j] = temp;
-                    }
-            }
+        int counter=0;
+        for (int i=0;i<count;i++) {
+            if (arr[i] == 1) {
+                arr[count - 1] = arr[i];
+            } else if (arr[i] == 0) {
+                arr[counter] = arr[i];
+                counter++;
+            } else{}
         }
-    }
+
         System.out.println("Resultant array: " + Arrays.toString(arr) );
+
+
+
+
 
     }
 }

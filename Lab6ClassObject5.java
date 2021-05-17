@@ -11,6 +11,7 @@ public class Lab6ClassObject5 {
         date = datee;
         System.out.println("Date is: " + date);
     }
+
     public static void main(String[] args){
         Lab6ClassObject5 d1 = new Lab6ClassObject5();
         System.out.println("Network Provided date: " + java.time.LocalDate.now());

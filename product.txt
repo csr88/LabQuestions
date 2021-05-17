@@ -1,0 +1,4 @@
+####### Product Information #######
+product Name: sugar
+product Price: 75.0
+Availability: true

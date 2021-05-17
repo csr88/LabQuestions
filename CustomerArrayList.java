@@ -4,8 +4,8 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class CustomerArrayList
-{
+public class CustomerArrayList {
+
     String name;
     double purchase_amount;
     double discountAmount;
@@ -15,7 +15,7 @@ public class CustomerArrayList
         this.purchase_amount = purchase_amount;
     }
 
-    String getname()
+    String getName()
     {
         return name;
     }
@@ -44,6 +44,7 @@ public class CustomerArrayList
 
             list.add(new CustomerArrayList(names,pa));
         }
+
         PrintWriter outF = new PrintWriter("/home/shishir/IdeaProjects/Shishir/Javalab 10 qsns/src/CustomerArrayList.txt");
         outF.printf("ID");
         outF.printf("\tName");
@@ -65,7 +66,9 @@ public class CustomerArrayList
         double totalamount =0;
 
         for(int i=0;i<count;i++){
-            outF.printf((i+1) + "\t" + list.get(i).name + "\t\t\t\t\t" + list.get(i).purchase_amount  );
+ //             can do both of these, one called from varible and one from method
+//            outF.printf((i+1) + "\t" + list.get(i).name + "\t\t\t\t\t" + list.get(i).purchase_amount  );
+            outF.printf((i+1) + "\t" + list.get(i).getName() + "\t\t\t\t\t" + list.get(i).getPurchase_amount()  );
 
             if(list.get(i).purchase_amount<=1000){
                 discountpercentage =0.05;
